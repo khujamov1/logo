@@ -1,0 +1,59 @@
+.site-header {
+    background-image: url("/images/image/herobgm.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.switch {
+    width: 32px;
+    height: 32px;
+    background-image: url("/images/icon/switch.svg");
+}
+.header-button {
+    width: 26px;
+    height: 26px;
+    background-image: url("/images/icon/menu.svg");
+}
+.text-box {
+    max-width: 342px;
+    margin: 0 auto;
+}
+.header-title {
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+.header-desc {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.links {
+    flex-direction: column;
+}
+.links>a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 17px 0;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 32px;
+}
+.links>a:nth-child(2) {
+    background-color: #FF007A;
+    border: 1px solid transparent;
+}

@@ -1,0 +1,27 @@
+.contain {
+    min-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 14px;
+}
+
+@media only screen and (min-width: 574px) {
+    .contain {
+        padding: 0 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .contain {
+        padding: 0 75px;
+    }
+}
+@media only screen and (min-width: 950px) {
+    .contain {
+        padding: 0 100px;
+    }
+}
+@media only screen and (min-width: 1320px) {
+    .contain {
+        padding: 0 120px;
+    }
+}
