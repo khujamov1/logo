@@ -877,6 +877,234 @@ body {
   color: #FFFFFF;
 }
 
+.news {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.news-text-wrapper {
+  max-width: 335px;
+}
+
+.news-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.news-desc {
+  font-size: 18px;
+  line-height: 24px;
+  color: #3D3A41;
+}
+
+.news-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  flex-direction: column;
+}
+
+.news-item {
+  max-width: 406px;
+  margin-bottom: 30px;
+  padding-bottom: 32px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.news-item:hover {
+  box-shadow: 0px 4px 14px #CDE3EF;
+}
+
+.news-item:hover .news-item-link::after {
+  background-image: url("/images/icon/rightred.svg");
+}
+
+.news-img {
+  width: 343px;
+}
+
+.news-item-box {
+  max-width: 310px;
+  margin-top: 27px;
+  margin-left: 23px;
+}
+
+.news-item-box > span {
+  font-weight: 600;
+  font-size: 13.6585px;
+  line-height: 150%;
+  color: #211F25;
+  background-color: #F4F4F4;
+}
+
+.new-item-box > time {
+  font-weight: 600;
+  font-size: 13.6585px;
+  line-height: 150%;
+  color: #3D3A41;
+}
+
+.news-item-title {
+  font-weight: 600;
+  font-size: 23.4146px;
+  line-height: 140%;
+  color: #211F25;
+}
+
+.new-item-desc-wrapper {
+  max-width: 262px;
+}
+
+.news-item-desc {
+  font-family: "Roboto";
+  line-height: 150%;
+  margin-bottom: 32px;
+  color: #3D3A41;
+}
+
+.news-item-link {
+  position: relative;
+  line-height: 150%;
+  text-decoration: none;
+  color: #FF007A;
+}
+
+.news-item-link::after {
+  position: absolute;
+  top: 6px;
+  right: -13px;
+  width: 6px;
+  height: 11px;
+  background-image: url("/images/icon/right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+.site-footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: var(--main-dark-color);
+}
+
+.footer__logo-link {
+  display: inline-block;
+}
+
+.footer__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70px;
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+
+.footer__link {
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 150%;
+  color: #fff;
+}
+
+.footer__strong {
+  margin: 0;
+  font-family: "Nunito";
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer__top-desc {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.footer__top-right-lin {
+  color: #fff;
+}
+
+.footer__bottom {
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+}
+
+.footer__bottom-links {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 80px;
+}
+
+.footer__bottom-link {
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.footer__bottom-desc {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+}
+
+@media only screen and (min-width: 763px) {
+  .site-footer {
+    padding: 70px 0;
+  }
+  .footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer__item {
+    width: 140px;
+  }
+  .footer__top-desc {
+    display: block;
+  }
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+  }
+  .footer__bottom-links {
+    margin-bottom: 0;
+  }
+  .footer__bottom-link {
+    margin-right: 24px;
+  }
+}
+@media only screen and (min-width: 980px) {
+  .footer__top {
+    margin-bottom: 80px;
+  }
+  .footer__list {
+    height: auto;
+    margin-bottom: 0;
+    flex-direction: row;
+  }
+  .footer__item {
+    width: auto;
+    margin-right: 32px;
+  }
+  .footer__input {
+    width: 257px;
+  }
+}
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
