@@ -34,7 +34,6 @@
     letter-spacing: 0.01em;
     color: #fff;
 }
-
 .links {
     flex-direction: column;
 }
@@ -61,4 +60,14 @@
     width: 343px;
     height: 200px;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 375px) {
+    .site-header {
+        background-image: url("/images/image/herobg.svg");
+        background-repeat: no-repeat;
+        // background-size: cover;
+        background-position-x: center;
+        background-position-y: -320px;
+    }
 }
