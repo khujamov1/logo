@@ -1,7 +1,7 @@
 .site-header {
     background-image: url("/images/image/herobgm.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -118px -40px;
 }
 .switch {
     width: 32px;
@@ -23,7 +23,6 @@
     font-size: 36px;
     margin-bottom: 10px;
     letter-spacing: -0.01em;
-    color: #fff;
 }
 .header-desc {
     font-family: 'Nunito';
@@ -56,4 +55,10 @@
 .links>a:nth-child(2) {
     background-color: #FF007A;
     border: 1px solid transparent;
+}
+.hero-picture {
+    display: block;
+    width: 343px;
+    height: 200px;
+    margin: 0 auto;
 }

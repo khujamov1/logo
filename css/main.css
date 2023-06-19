@@ -375,7 +375,7 @@ template {
 }
 
 body {
-  font-family: "Nunito";
+  font-family: "Nunito" !important;
   font-weight: 400;
   font-size: 16px;
 }
@@ -391,6 +391,7 @@ body {
 
 .contain {
   min-width: 375px;
+  max-width: 1320px;
   width: 100%;
   margin: 0 auto;
   padding: 0 14px;
@@ -419,7 +420,7 @@ body {
 .site-header {
   background-image: url("/images/image/herobgm.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: -118px -40px;
 }
 
 .switch {
@@ -445,7 +446,6 @@ body {
   font-size: 36px;
   margin-bottom: 10px;
   letter-spacing: -0.01em;
-  color: #fff;
 }
 
 .header-desc {
@@ -481,6 +481,209 @@ body {
 .links > a:nth-child(2) {
   background-color: #FF007A;
   border: 1px solid transparent;
+}
+
+.hero-picture {
+  display: block;
+  width: 343px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.hero-text-inner {
+  max-width: 333px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.hero-desc {
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #3D3A41;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 405px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-card {
+  max-width: 343px;
+  margin-bottom: 30px;
+  border: none !important;
+  border-radius: 8px;
+}
+
+.hero-card:hover {
+  background-color: #f7f5ff;
+}
+
+.hero-card:hover .card-link {
+  color: #FF007A;
+}
+
+.card-title {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.card-text {
+  font-family: "Nunito";
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.card-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 155%;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: #211F25;
+}
+
+.protection-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.protection-img {
+  max-width: 332px;
+}
+
+.protection-title {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.protection-desc {
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.protection-link {
+  display: block;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 32px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: #ff007a;
+  display: inline-block;
+  width: 187px;
+  border: 1px solid #ff007a;
+}
+
+.customers {
+  padding-bottom: 46px;
+}
+
+.customers > .contain {
+  overflow: hidden;
+}
+
+.customer__text-box {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.customer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.customer-desc {
+  line-height: 22px;
+  color: #3D3A41;
+}
+
+.cutomer-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.customers::after {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 46px);
+  width: 92px;
+  height: 26px;
+  background-image: url("/images/icon/dots.svg");
+  content: "";
+}
+
+.customer-item {
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 406px;
+  padding: 30.7277px;
+  padding-top: 80px;
+  border: 1px solid transparent;
+  background: #F7F5FF;
+  border-radius: 8px;
+}
+
+.customer-item:hover {
+  border: 1px solid #FF007A;
+}
+
+.customer-item::before {
+  position: absolute;
+  top: 30px;
+  width: 111px;
+  height: 18px;
+  background-image: url("/images/icon/stars.svg");
+  content: "";
+}
+
+.customer-comment {
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #211F25;
+}
+
+.customer-name {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.customer-job {
+  font-family: "Roboto";
+  line-height: 150%;
+  color: #3D3A41;
 }
 
 /*!

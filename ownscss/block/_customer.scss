@@ -1,0 +1,74 @@
+@use "../mixins";
+
+.customers {
+    padding-bottom: 46px;
+}
+.customers>.contain {
+    overflow: hidden;
+}
+.customer__text-box {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.customer-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -0.01em;    
+    color: #211F25;
+}
+.customer-desc {
+    line-height: 22px;
+    color: #3D3A41;
+}
+.cutomer-list {
+    @include mixins.listUnstyled;
+}
+.customers::after {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 46px);
+    width: 92px;
+    height: 26px;
+    background-image: url("/images/icon/dots.svg");
+    content: "";
+}
+.customer-item {
+    flex-direction: column;
+    min-width: 320px;
+    max-width: 406px;
+    padding: 30.7277px;
+    padding-top: 80px;
+    border: 1px solid transparent;
+    background: #F7F5FF;
+    border-radius: 8px;
+}
+.customer-item:hover {
+    border: 1px solid #FF007A;
+}
+.customer-item::before {
+    position: absolute;
+    top: 30px;
+    width: 111px;
+    height: 18px;
+    background-image: url("/images/icon/stars.svg");
+    content: "";
+}
+.customer-comment {
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #211F25;
+}
+.customer-name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #211F25;
+}
+.customer-job {
+    font-family: 'Roboto';
+    line-height: 150%;
+    color: #3D3A41;
+}

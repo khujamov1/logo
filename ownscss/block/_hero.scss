@@ -1,0 +1,61 @@
+.hero-text-inner {
+    max-width: 333px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    color: #211F25;
+}
+.hero-desc {
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #3D3A41;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 405px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.hero-card {
+    max-width: 343px;
+    margin-bottom: 30px;
+    border: none !important;
+    border-radius: 8px;
+}
+.hero-card:hover {
+    background-color: #f7f5ff;
+}
+.hero-card:hover .card-link {
+    color: #FF007A;
+}
+.card-title {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #211F25;
+}
+.card-text {
+    font-family: 'Nunito';
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #3D3A41;
+}
+.card-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 155%;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: #211F25;
+}
