@@ -1,0 +1,61 @@
+.site-article {
+    background-color: #6B50FF;
+    padding: 83px 0;
+}
+.article-text-box {
+    max-width: 338px;
+    margin-bottom: 20px;
+}
+.article-title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+.article-desc {
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.article-form {
+    margin-bottom: 10px;
+}
+.article-input {
+    max-width: 365px;
+    margin-right: 10px;
+    padding: 16px 28px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 32px;
+}
+.article-input::placeholder {
+    font-family: 'Roboto';
+    line-height: 150%;
+    color: #505050;
+}
+.article-button {
+    font-family: "Roboto";
+    line-height: 150%;
+    min-width: 91px;
+    color: #FFFFFF;
+    padding: 12px 18px;
+    background: #FF007A;
+    border: none;
+    border-radius: 32px;
+}
+.article-info {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.article-minor-link {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -686,6 +686,197 @@ body {
   color: #3D3A41;
 }
 
+.pricing {
+  padding: 40px 0;
+}
+
+.pricing-text-wrapper {
+  max-width: 297px;
+  margin: 0 auto;
+}
+
+.pricing-title {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.pricing-desc {
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.pricing-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.pricing-item {
+  flex-direction: column;
+  max-width: 405px;
+  margin-bottom: 6px;
+  padding: 31.22px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.pricing-item:hover {
+  border: 1px solid #FF007A;
+}
+
+.pricing-item-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.pricing-cost {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+  color: #211F25;
+}
+
+.pricing-addition-cost {
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.limits {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 39px;
+}
+
+.limit {
+  position: relative;
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.limit::before {
+  position: absolute;
+  top: 6px;
+  left: -36px;
+  width: 17px;
+  height: 12px;
+  background-image: url(/images/icon/succes.svg);
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.pricing-item-link {
+  display: block;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 32px;
+  font-family: "Roboto";
+  padding: 16px 28px;
+  line-height: 150%;
+  color: #FF007A;
+  border: 1px solid #FF007A;
+  border-radius: 32px;
+}
+
+.pricing-item:hover .pricing-item-link {
+  color: #fff;
+  background-color: var(--main-pink-color);
+}
+
+.site-article {
+  background-color: #6B50FF;
+  padding: 83px 0;
+}
+
+.article-text-box {
+  max-width: 338px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.article-desc {
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.article-form {
+  margin-bottom: 10px;
+}
+
+.article-input {
+  max-width: 365px;
+  margin-right: 10px;
+  padding: 16px 28px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 32px;
+}
+
+.article-input::-moz-placeholder {
+  font-family: "Roboto";
+  line-height: 150%;
+  color: #505050;
+}
+
+.article-input::placeholder {
+  font-family: "Roboto";
+  line-height: 150%;
+  color: #505050;
+}
+
+.article-button {
+  font-family: "Roboto";
+  line-height: 150%;
+  min-width: 91px;
+  color: #FFFFFF;
+  padding: 12px 18px;
+  background: #FF007A;
+  border: none;
+  border-radius: 32px;
+}
+
+.article-info {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.article-minor-link {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
