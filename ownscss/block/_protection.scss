@@ -3,6 +3,10 @@
 .protection-list {
     @include mixins.listUnstyled;
 }
+.dark .protection-item {
+    background-color: #211F25;
+    color: #fff;
+}
 .protection-img {
     max-width: 332px;
 }
@@ -14,7 +18,7 @@
 // SHU JOY!
 .protect__img {
     display: block;
-    width: 332px;
+    min-width: 332px;
     height: 352px;
     margin-top: 0;
     margin-right: auto;
@@ -23,7 +27,7 @@
 }
 .protect__img--sec {
     display: block;
-    width: 343px;
+    min-width: 343px;
     height: 240px;
     margin-top: 0;
     margin-right: auto;
@@ -55,22 +59,31 @@
     width: 187px;
     border: 1px solid #ff007a;
 }
+.protection-link:hover {
+    @include mixins.hoverStyled;
+}
 
 @media only screen and (min-width: 1240px) {
     .protection-item:first-child {
+        padding: 100px 0;
         flex-direction: row-reverse;
         align-items: center;
     }
     .protection-item:first-child>.protection-text-box {
         margin-right: 36px;
-        
+    }
+    .protection-item:nth-child(2) {
+        padding: 100px 0;
+    }
+    .protection-item:nth-child(2)>.protect__text-box {
+        margin-left: 43px;
     }
     .protection-text-box {
         max-width: 624px;
         text-align: start;
     }
     .protection-img {
-        width: 620px;
+        min-width: 620px;
         height: 369px;
     }
 }

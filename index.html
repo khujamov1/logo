@@ -23,16 +23,16 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="#" title="home page">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                                    <a class="nav-link active" aria-current="page" href="#" title="inform page">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                                    <a class="nav-link active" aria-current="page" href="#" title="pricing page">Pricing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                                    <a class="nav-link active" aria-current="page" href="#" title="contact page">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -44,16 +44,26 @@
         <div class="header-bottom mt-5">
             <div class="contain">
                 <div class="text-box text-center pb-5 mb-4">
-                    <h1 class="header-title text-light">Your digital business is in good hands with us!</h1>
+                    <h1 class="header-title text-light" title="Your digital business...">Your digital business is in good hands with us!</h1>
                     <div class="text-box-small">
-                        <p class="header-desc mb-5 text-light">Make your work easier with an integrated ecosystem that lets all departments work properly together.</p>
+                        <p class="header-desc mb-5 text-light" title="Make your work...">Make your work easier with an integrated ecosystem that lets all departments work properly together.</p>
                         <div class="links d-flex">
-                            <a href="#">Watch Video</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Watch Video</a>
                             <a href="#">Get Started</a>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content iframe-wrapper">
+                                        <!-- <iframe src="https://www.youtube.com/watch?v=sN8v5DVNhuk&pp=ygUGYml6bmVz" frameborder="0" class="modal-iframe"></iframe> -->
+                                        <iframe src="https://www.youtube.com/embed/O9XTWHUW7qQ" title="Trening ortidan MILLION - SOXTA &quot;BIZNES-TRENER&quot;LAR | SUBYEKTIV" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="header__iframe" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <img src="/images/image/macbook.png" srcset="/images/image/macbook 1x, /images/image/macbook@2x.png 2x" class="header-picture" alt="macbook">
+                <img src="/images/image/macbook.png" srcset="/images/image/macbook 1x, /images/image/macbook@2x.png 2x" class="header-picture" alt="macbook pro">
             </div>
         </div>
     </header>
@@ -65,10 +75,10 @@
         <section class="hero">
             <div class="contain">
                 <div class="hero-text-inner text-center">
-                    <h2 class="hero-title">
+                    <h2 class="hero-title" title="Software Solutions That...">
                         Software Solutions That Fit Your Needs
                     </h2>
-                    <p class="hero-desc">
+                    <p class="hero-desc" title="THe features to boost...">
                         The features to boost your productivity
                     </p>
                 </div>
@@ -76,24 +86,24 @@
                     <div class="card text-center hero-card">
                         <img src="./images/image/herof.svg" class="card-img-top" alt="The shape of statistics">
                         <div class="card-body">
-                            <h3 class="card-title">Task Management</h3>
-                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h3 class="card-title" title="Task management">Task Management</h3>
+                            <p class="card-text" title="Amet minim mollit...">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                             <a href="#" class="card-link">View More</a>
                         </div>
                     </div>
                     <div class="card text-center hero-card">
                         <img src="./images/image/heros.svg" class="card-img-top" alt="The shape of statistics">
                         <div class="card-body">
-                            <h3 class="card-title">Automation</h3>
-                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h3 class="card-title" title="Automation">Automation</h3>
+                            <p class="card-text" title="Amet minim mollit...">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                             <a href="#" class="card-link">View More</a>
                         </div>
                     </div>
                     <div class="card text-center hero-card">
                         <img src="./images/image/heroth.svg" class="card-img-top" alt="The shape of statistics">
                         <div class="card-body">
-                            <h3 class="card-title">Budgeting Tools</h3>
-                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h3 class="card-title" title="Budgeting tools">Budgeting Tools</h3>
+                            <p class="card-text" title="Amet minim mollit...">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                             <a href="#" class="card-link">View More</a>
                         </div>
                     </div>
@@ -105,25 +115,25 @@
             <div class="contain">
                 <h2 class="visually-hidden">You can check our protection</h2>
                 <ul class="protection-list">
-                    <li class="protection-item d-lg-flex mb-5">
-                        <img src="./images/image/protectionf.png" srcset="./images/image/protectionf.png 1x, ./images/image/protectionf@2x.png 2x" class="protection-img protect__img" alt="">
+                    <li class="protection-item d-lg-flex">
+                        <img src="./images/image/protections.png" srcset="./images/image/protections.png 1x, ./images/image/protections@2x.png 2x" class="protection-img protect__img" alt="">
                         <div class="protection-text-box">
-                            <h3 class="protection-title">
+                            <h3 class="protection-title" title="Easy Adbance protection">
                                 Easy Advance Protection
                             </h3>
-                            <p class="protection-desc">
+                            <p class="protection-desc" title="Use marketing automation...">
                                 Use marketing automation to identify hot leads and email your sales team telling them to follow up. Nurture and contact leads at the opportune time to maximize.
                             </p>
                             <a href="#" class="protection-link">Read more</a>
                         </div>
                     </li>
                     <li class="protection-item d-lg-flex">
-                        <img src="./images/image/protections.png" srcset="./images/image/protections.png 1x, ./images/image/protections@2x.png 2x" class="protection-img protect__img--sec" alt="">
+                        <img src="./images/image/protectionf.png" srcset="./images/image/protectionf.png 1x, ./images/image/protectionf@2x.png 2x" class="protection-img protect__img--sec" alt="">
                         <div class="protection-text-box">
-                            <h3 class="protection-title">
+                            <h3 class="protection-title" title="Advance Protection Mode easy">
                                 Advance Protection Mode Easy 
                             </h3>
-                            <p class="protection-desc">
+                            <p class="protection-desc" title="Use marketing automation...">
                                 Use marketing automation to identify hot leads and email your sales team telling them to follow up. Nurture and contact leads at the opportune time to maximize.
                             </p>
                             <a href="#" class="protection-link">Read more</a>
@@ -136,41 +146,53 @@
         <section class="customers position-relative">
             <div class="contain">
                 <div class="customer__text-box">
-                    <h2 class="customer-title text-center">Customer testi monials</h2>
-                    <p class="customer-desc text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h2 class="customer-title text-center" title="Customer testi monials">Customer testi monials</h2>
+                    <p class="customer-desc text-center" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <ul class="cutomer-list d-flex position-relative">
-                    <li class="customer-item position-relative d-flex me-3">
-                        <p class="customer-comment">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
-                        <div class="d-flex">
-                            <img src="/images/icon/customerf.png" srcset="/images/icon/customerf.png 1x, /images/icon/customerf@2x.png 2x" alt="The picture of customer">
-                            <div class="ms-3">
-                                <strong class="customer-name">Brooklyn Simmons</strong>
-                                <p class="curtomer-job mb-0">Bank of America</p>
+                <div class="customers__wrapper">
+                    <button class="left side rounded-circle position-absolute">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.1612 7.60133H4.47508L9.84282 2.23359L8.47928 0.879654L0.797363 8.56157L8.47928 16.2435L9.83322 14.8896L4.47508 9.52182H16.1612V7.60133Z" fill="#FF007A"/>
+                        </svg>
+                    </button>
+                    <ul class="cutomer-list d-flex position-relative">
+                        <li class="customer-item position-relative d-flex me-3">
+                            <p class="customer-comment" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                            <div class="d-flex">
+                                <img src="/images/icon/customerf.png" srcset="/images/icon/customerf.png 1x, /images/icon/customerf@2x.png 2x" alt="The picture of customer">
+                                <div class="ms-3">
+                                    <strong class="customer-name">Brooklyn Simmons</strong>
+                                    <p class="curtomer-job mb-0">Bank of America</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="customer-item position-relative d-flex me-3">
-                        <p class="customer-comment">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
-                        <div class="d-flex">
-                            <img src="/images/icon/customers.png" srcset="/images/icon/customers.png 1x, /images/icon/customers@2x.png 2x" alt="The picture of customer">
-                            <div class="ms-3">
-                                <strong class="customer-name">Brooklyn Simmons</strong>
-                                <p class="curtomer-job mb-0">Bank of America</p>
+                        </li>
+                        <li class="customer-item position-relative d-flex me-3">
+                            <p class="customer-comment" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                            <div class="d-flex">
+                                <img src="/images/icon/customers.png" srcset="/images/icon/customers.png 1x, /images/icon/customers@2x.png 2x" alt="The picture of customer">
+                                <div class="ms-3">
+                                    <strong class="customer-name">Darrell Steward</strong>
+                                    <p class="curtomer-job mb-0">American Airlines Group</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="customer-item position-relative d-flex me-3">
-                        <p class="customer-comment mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
-                        <div class="d-flex">
-                            <img src="/images/icon/customerth.png" srcset="/images/icon/customerth.png 1x, /images/icon/customerth@2x.png 2x" alt="The picture of customer">
-                            <div class="ms-3">
-                                <strong class="customer-name">Brooklyn Simmons</strong>
-                                <p class="curtomer-job mb-0">Bank of America</p>
+                        </li>
+                        <li class="customer-item position-relative d-flex me-3">
+                            <p class="customer-comment mb-0" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                            <div class="d-flex">
+                                <img src="/images/icon/customerth.png" srcset="/images/icon/customerth.png 1x, /images/icon/customerth@2x.png 2x" alt="The picture of customer">
+                                <div class="ms-3">
+                                    <strong class="customer-name">Courtney Henry</strong>
+                                    <p class="curtomer-job mb-0">Johnson & Johnson</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                    <button class="right side rounded-circle position-absolute">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.73514 0.879623L6.38121 2.23356L11.7393 7.6013H0.0532227V9.52178H11.7393L6.38121 14.8895L7.73514 16.2435L15.4171 8.56154L7.73514 0.879623Z" fill="#FF007A"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </section>
         
@@ -233,16 +255,16 @@
         <article class="site-article">
             <div class="contain">
                 <div class="article-text-box text-center">
-                    <h2 class="article-title">Get started a 15-days free trial</h2>
+                    <h2 class="article-title" title="Get started a 15-days free trial">Get started a 15-days free trial</h2>
                     <p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                 </div>
                 <form class="article-form d-flex" action="https://echo.htmlacademy.ru/courses" method="POST">
-                    <label class="article-label">
+                    <label class="article-label" aria-label="Enter your email">
                         <input type="email" placeholder="Enter your email" name="user_email" class="article-input" autocomplete="off" required>
                     </label>
                     <button type="submit" class="article-button">Sign Up</button>
                 </form>
-                <p class="article-info">By clicking Sign Up you're confirming that you agree with our <a href="#" class="article-minor-link">Terms and Conditions.</a></p>
+                <p class="article-info" title="Terms and Conditions">By clicking Sign Up you're confirming that you agree with our <a href="#" class="article-minor-link">Terms and Conditions.</a></p>
             </div>
         </article>
         
@@ -250,10 +272,10 @@
             <div class="contain">
                 <div class="news-text-wrapper">
                     <div>
-                        <h2 class="news-title">
+                        <h2 class="news-title" title="Recent News">
                             Recent News
                         </h2>
-                        <p class="news-desc">
+                        <p class="news-desc" title="todays news">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
                     </div>
@@ -325,16 +347,16 @@
                     </a>
                     <ul class="footer__list d-flex">
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Home</a>
+                            <a href="#" class="footer__link" title="home page">Home</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">About Us</a>
+                            <a href="#" class="footer__link" title="inform page">About Us</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Pricing</a>
+                            <a href="#" class="footer__link" title="pricing page">Pricing</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">Contact Us</a>
+                            <a href="#" class="footer__link" title="contact page">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -342,7 +364,7 @@
                     <strong class="footer__strong">Subscribe</strong>
                     <form class="article-form d-flex" action="https://echo.htmlacademy.ru/courses" method="POST">
                         <label class="article-label">
-                            <input type="email" placeholder="Enter your email" name="user_email" class="article-input">
+                            <input type="email" placeholder="Enter your email" name="user_email" class="article-input" required autocomplete="off">
                         </label>
                         <button type="submit" class="article-button">Sign Up</button>
                     </form>
@@ -366,7 +388,7 @@
         </div>
     </footer>
     <!-- site Footer finish -->
-    
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="./ownjs/main.js"></script>
 </body>
 </html>

@@ -21,6 +21,25 @@
     line-height: 22px;
     color: #3D3A41;
 }
+.customers__wrapper {
+    position: relative;
+    display: flex;
+}
+.side {
+    top: 119px;
+    width: 54px;
+    height: 54px;
+    border: 1px solid #FF007A;
+    background-color: transparent
+}
+.left {
+    left: -27px;
+    z-index: 2;
+}
+.right {
+    right: -120px;
+    z-index: 2;
+}
 .cutomer-list {
     @include mixins.listUnstyled;
 }

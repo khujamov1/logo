@@ -33,6 +33,9 @@
     border: 1px solid #FF007A;
     border-radius: 32px;
 }
+.news-top-link:hover {
+    @include mixins.hoverStyled;
+}
 .news-list {
     @include mixins.listUnstyled;
     flex-direction: column;
