@@ -3,7 +3,9 @@
     margin: 0 auto;
     margin-bottom: 30px;
 }
-
+.dark .hero-title {
+    color: #fff;
+}
 .hero-title {
     font-family: 'Nunito';
     font-weight: 700;
@@ -11,6 +13,9 @@
     line-height: 42px;
     letter-spacing: -0.01em;
     color: #211F25;
+}
+.dark .hero-desc {
+    color:  #D6D6D6;
 }
 .hero-desc {
     line-height: 22px;
@@ -25,6 +30,13 @@
     margin-right: auto;
     margin-left: auto;
     
+}
+.dark .hero-card {
+    background-color: #000;
+    color: #fff;
+}
+.dark .hero-card:hover {
+    background-color: #211F25;
 }
 .hero-card {
     max-width: 343px;
@@ -46,11 +58,17 @@
     letter-spacing: -0.01em;
     color: #211F25;
 }
+.dark .card-text {
+    color: #D6D6D6;
+}
 .card-text {
     font-family: 'Nunito';
     line-height: 155%;
     letter-spacing: 0.02em;
     color: #3D3A41;
+}
+.dark .card-link {
+    color: #fff;
 }
 .card-link {
     font-weight: 500;

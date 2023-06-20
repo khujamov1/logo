@@ -383,6 +383,12 @@ body {
 .dark {
   --main-dark-bg-color: black;
   --main-dark-text-color: white;
+  background-color: #000;
+  color: #fff;
+}
+
+.dark h1, .dark .h1, h2, .h2, h3, .h3, h4, .h4, ul {
+  color: #fff;
 }
 
 .visually-hidden {
@@ -446,6 +452,11 @@ body {
   color: #fff !important;
 }
 
+.nav-item > a:hover {
+  text-decoration-line: underline;
+  opacity: 0.5;
+}
+
 .header-button {
   width: 26px;
   height: 26px;
@@ -492,6 +503,22 @@ body {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 32px;
+}
+
+.links > a:first-child {
+  position: relative;
+  padding-right: 71px;
+  padding-left: 19px;
+}
+
+.links > a:first-child::after {
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  width: 36px;
+  height: 36px;
+  background-image: url("/images/icon/video.svg");
+  content: "";
 }
 
 .links > a:nth-child(2) {
@@ -583,6 +610,10 @@ body {
   margin-bottom: 30px;
 }
 
+.dark .hero-title {
+  color: #fff;
+}
+
 .hero-title {
   font-family: "Nunito";
   font-weight: 700;
@@ -590,6 +621,10 @@ body {
   line-height: 42px;
   letter-spacing: -0.01em;
   color: #211F25;
+}
+
+.dark .hero-desc {
+  color: #D6D6D6;
 }
 
 .hero-desc {
@@ -605,6 +640,15 @@ body {
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.dark .hero-card {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark .hero-card:hover {
+  background-color: #211F25;
 }
 
 .hero-card {
@@ -631,11 +675,19 @@ body {
   color: #211F25;
 }
 
+.dark .card-text {
+  color: #D6D6D6;
+}
+
 .card-text {
   font-family: "Nunito";
   line-height: 155%;
   letter-spacing: 0.02em;
   color: #3D3A41;
+}
+
+.dark .card-link {
+  color: #fff;
 }
 
 .card-link {
@@ -1043,6 +1095,10 @@ body {
     text-align: start;
   }
 }
+.dark .site-article {
+  background: linear-gradient(72.67deg, #1A1822 2.78%, #9040E3 173.27%), #6B50FF;
+}
+
 .site-article {
   background-color: #6B50FF;
   padding: 83px 0;
@@ -1145,6 +1201,10 @@ body {
     width: 365px;
   }
 }
+.dark .news {
+  background-color: #211F25;
+}
+
 .news {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -1171,7 +1231,8 @@ body {
 
 .news-top-link {
   display: none;
-  padding: 16px 28px;
+  height: 56px;
+  padding: 0 28px;
   font-size: 16px;
   line-height: 150%;
   text-decoration: none;
@@ -1274,11 +1335,16 @@ body {
     background-color: #F4FBFF;
   }
   .news-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
     margin-bottom: 80px;
     margin-left: 0;
     margin-right: auto;
     text-align: start;
-    max-width: 735px;
+  }
+  .news-top-link {
+    display: block;
   }
   .news-title {
     margin-bottom: 16px;
@@ -1293,6 +1359,10 @@ body {
     width: 406px;
   }
 }
+.dark .site-footer {
+  background-color: #000;
+}
+
 .site-footer {
   padding-top: 50px;
   padding-bottom: 30px;

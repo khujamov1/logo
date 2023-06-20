@@ -1,5 +1,8 @@
 @use "../mixins";
 
+.dark .site-footer {
+    background-color: #000;
+}
 .site-footer {
     padding-top: 50px;
     padding-bottom: 30px;

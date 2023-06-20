@@ -1,5 +1,7 @@
 @use "../mixins";
-
+.dark .news {
+    background-color: #211F25;
+}
 .news {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -22,7 +24,8 @@
 }
 .news-top-link {
     display: none;
-    padding: 16px 28px;
+    height: 56px;
+    padding: 0 28px;
     font-size: 16px;
     line-height: 150%;
     text-decoration: none;
@@ -111,11 +114,16 @@
         background-color: #F4FBFF;
     }
     .news-text-wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
         margin-bottom: 80px;
         margin-left: 0;
         margin-right: auto;
         text-align: start;
-        max-width: 735px;
+    }
+    .news-top-link {
+        display: block;
     }
     .news-title {
         margin-bottom: 16px;
