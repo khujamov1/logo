@@ -3,8 +3,8 @@
 .protection-list {
     @include mixins.listUnstyled;
 }
-.dark .protection-item {
-    background-color: #211F25;
+.dark .protection-item:first-child {
+    background-color: var(--main-dark-color);
     color: #fff;
 }
 .protection-img {
@@ -42,7 +42,7 @@
     font-size: 38px;
     line-height: 120%;
     letter-spacing: -0.01em;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .protection-desc {
     line-height: 155%;
@@ -54,10 +54,10 @@
     @include mixins.linkStyled;
     line-height: 155%;
     letter-spacing: 0.01em;
-    color: #ff007a;
+    color: var(--main-pink-color);
     display: inline-block;
     width: 187px;
-    border: 1px solid #ff007a;
+    border: 1px solid var(--main-pink-color);
 }
 .protection-link:hover {
     @include mixins.hoverStyled;

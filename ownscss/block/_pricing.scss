@@ -15,11 +15,17 @@
     letter-spacing: -0.01em;
     color: #000000;
 }
+.dark .pricing-title {
+    color: #D6D6D6;
+}
 .pricing-desc {
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
+}
+.dark .pricing-desc {
+    color: #D6D6D6;
 }
 .pricing-list {
     @include mixins.listUnstyled;
@@ -36,7 +42,7 @@
     border-radius: 8px;
 }
 .pricing-item:hover {
-    border: 1px solid #FF007A;
+    border: 1px solid var(--main-pink-color);
 }
 .pricing-item-title {
     font-family: "Roboto";
@@ -44,18 +50,27 @@
     font-size: 20px;
     line-height: 150%;
     letter-spacing: -0.01em;
-    color: #211F25;
+    color: var(--main-dark-color);
+}
+.dark .pricing-item-title {
+    color: #D6D6D6;
 }
 .pricing-cost {
     font-weight: 800;
     font-size: 28px;
     line-height: 120%;
-    color: #211F25;
+    color: var(--main-dark-color);
+}
+.dark .pricing-cost {
+    color: #d6d6d6;
 }
 .pricing-addition-cost {
     line-height: 155%;
     letter-spacing: 0.02em;
     color: #3D3A41;
+}
+.dark .pricing-addition-cost {
+    color: #d6d6d6;
 }
 .limits {
     @include mixins.listUnstyled;
@@ -65,7 +80,10 @@
     position: relative;
     line-height: 155%;
     letter-spacing: 0.02em;
-    color: #3D3A41;
+    color: #3d3a41;
+}
+.dark .limit {
+    color: #d6d6d6;
 }
 
 .limit::before {
@@ -83,8 +101,8 @@
     font-family: "Roboto";
     padding: 16px 28px;
     line-height: 150%;
-    color: #FF007A;
-    border: 1px solid #FF007A;
+    color: var(--main-pink-color);
+    border: 1px solid var(--main-pink-color);
     border-radius: 32px;
 }
 .pricing-item:hover .pricing-item-link {

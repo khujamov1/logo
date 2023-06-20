@@ -12,7 +12,7 @@
     font-size: 36px;
     line-height: 42px;
     letter-spacing: -0.01em;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .dark .hero-desc {
     color:  #D6D6D6;
@@ -36,7 +36,7 @@
     color: #fff;
 }
 .dark .hero-card:hover {
-    background-color: #211F25;
+    background-color: var(--main-dark-color);
 }
 .hero-card {
     max-width: 343px;
@@ -48,7 +48,7 @@
     background-color: #f7f5ff;
 }
 .hero-card:hover .card-link {
-    color: #FF007A;
+    color: var(--main-pink-color);
 }
 .card-title {
     font-family: 'Nunito';
@@ -56,7 +56,7 @@
     font-size: 32px;
     line-height: 120%;
     letter-spacing: -0.01em;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .dark .card-text {
     color: #D6D6D6;
@@ -76,7 +76,7 @@
     line-height: 155%;
     text-decoration: none;
     letter-spacing: 0.02em;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 
 @media only screen and (min-width: 570px) and (max-width: 1240px) {

@@ -3,6 +3,9 @@
 .customers {
     padding-bottom: 46px;
 }
+.dark .customers {
+    background-color: var(--main-dark-color);
+}
 .customers>.contain {
     overflow: hidden;
 }
@@ -15,7 +18,7 @@
     font-size: 36px;
     line-height: 36px;
     letter-spacing: -0.01em;    
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .customer-desc {
     line-height: 22px;
@@ -29,7 +32,7 @@
     top: 119px;
     width: 54px;
     height: 54px;
-    border: 1px solid #FF007A;
+    border: 1px solid var(--main-pink-color);
     background-color: transparent
 }
 .left {
@@ -63,7 +66,7 @@
     border-radius: 8px;
 }
 .customer-item:hover {
-    border: 1px solid #FF007A;
+    border: 1px solid var(--main-pink-color);
 }
 .customer-item::before {
     position: absolute;
@@ -76,7 +79,7 @@
 .customer-comment {
     line-height: 155%;
     letter-spacing: 0.02em;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .customer-name {
     font-family: 'Roboto';
@@ -84,7 +87,7 @@
     font-size: 20px;
     line-height: 150%;
     letter-spacing: -0.01em;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .customer-job {
     font-family: 'Roboto';

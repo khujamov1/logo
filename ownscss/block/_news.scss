@@ -1,6 +1,6 @@
 @use "../mixins";
 .dark .news {
-    background-color: #211F25;
+    background-color: var(--main-dark-color);
 }
 .news {
     padding-top: 80px;
@@ -15,7 +15,7 @@
     font-size: 36px;
     line-height: 49px;
     letter-spacing: -0.01em;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .news-desc {
     font-size: 18px;
@@ -29,8 +29,8 @@
     font-size: 16px;
     line-height: 150%;
     text-decoration: none;
-    color: #FF007A;
-    border: 1px solid #FF007A;
+    color: var(--main-pink-color);
+    border: 1px solid var(--main-pink-color);
     border-radius: 32px;
 }
 .news-top-link:hover {
@@ -65,7 +65,7 @@
     font-weight: 600;
     font-size: 13.6585px;
     line-height: 150%;
-    color: #211F25;
+    color: var(--main-dark-color);
     background-color:#F4F4F4;
 }
 .new-item-box>time {
@@ -81,7 +81,7 @@
     font-weight: 600;
     font-size: 23.4146px;
     line-height: 140%;
-    color: #211F25;
+    color: var(--main-dark-color);
 }
 .new-item-desc-wrapper {
     max-width: 359px;
@@ -96,7 +96,7 @@
     position: relative;
     line-height: 150%;
     text-decoration: none;
-    color: #FF007A;
+    color: var(--main-pink-color);
 }
 .news-item-link::after {
     position: absolute;
