@@ -6,7 +6,31 @@
 .protection-img {
     max-width: 332px;
 }
+.protection-text-box {
+    text-align: center;
+}
 
+
+// SHU JOY!
+.protect__img {
+    display: block;
+    width: 332px;
+    height: 352px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+.protect__img--sec {
+    display: block;
+    width: 343px;
+    height: 240px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+} 
+// SHU JOY
 
 .protection-title {
     font-family: 'Nunito';
@@ -30,4 +54,57 @@
     display: inline-block;
     width: 187px;
     border: 1px solid #ff007a;
+}
+
+@media only screen and (min-width: 1240px) {
+    .protection-item:first-child {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .protection-item:first-child>.protection-text-box {
+        margin-right: 36px;
+        
+    }
+    .protection-text-box {
+        max-width: 624px;
+        text-align: start;
+    }
+    .protection-img {
+        width: 620px;
+        height: 369px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1240px){
+    .protect__item {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+        padding: 100px 0;
+    }
+    .protect__item:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    .protect__item:nth-child(even)>img {
+        margin-right: 40px;
+    }
+    .protect__img {
+        width: 620px;
+        height: 370px;
+        margin: 0;
+    }
+    .protect__text-box {
+        max-width: 624px;
+        text-align: left;
+    }
+    .protect__link {
+        margin: 0;
+    }
 }

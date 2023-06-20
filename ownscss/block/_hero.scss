@@ -1,6 +1,7 @@
 .hero-text-inner {
     max-width: 333px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .hero-title {
@@ -58,4 +59,40 @@
     text-decoration: none;
     letter-spacing: 0.02em;
     color: #211F25;
+}
+
+@media only screen and (min-width: 570px) and (max-width: 1240px) {
+    .hero-text-inner {
+        max-width: 450px;
+        margin-bottom: 40px;
+    }
+    .cards {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .card {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 1240px){
+    .hero {
+        padding: 100px 0;
+    }
+    .hero-title {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+    .hero-text-inner {
+        max-width: 575px;
+        margin-bottom: 80px;
+    }
+    .cards {
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

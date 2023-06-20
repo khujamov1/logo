@@ -1,3 +1,7 @@
+
+.dark>.site-header {
+    background-image: url("/images/image/darktheme.svg");
+}
 .site-header {
     background-image: url("/images/image/herobgm.svg");
     background-repeat: no-repeat;
@@ -7,6 +11,13 @@
     width: 32px;
     height: 32px;
     background-image: url("/images/icon/switch.svg");
+}
+.nav-item>a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #fff !important;
 }
 .header-button {
     width: 26px;
@@ -44,7 +55,6 @@
     text-decoration: none;
     font-family: 'Nunito';
     font-weight: 600;
-    font-size: 16px;
     line-height: 155%;
     letter-spacing: 0.01em;
     color: #fff;
@@ -55,7 +65,7 @@
     background-color: #FF007A;
     border: 1px solid transparent;
 }
-.hero-picture {
+.header-picture {
     display: block;
     width: 343px;
     height: 200px;
@@ -70,29 +80,35 @@
         background-position-y: -320px;
     }
 }
-// 
+//
+
+@media only screen and (min-width: 451px) {
+    .header-title {
+        font-size: 42px;
+        margin-bottom: 24px;
+    }
+}
+
 @media only screen and (min-width: 591px) {
     .header-picture {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
         width: 453px;
         height: 295px;
     }
-}
-@media only screen and (min-width: 640px) {
-    .header-picture {
-        font-weight: 800;
+    .text-box {
+        max-width: 737px;
+        margin-bottom: 40px;
+    }
+    .header-title {
         font-size: 56px;
         line-height: 120%;
+        margin-bottom: 24px;
     }
-    .intro__desc-box {
+    .text-box-small {
         max-width: 471px;
-        margin: 24px auto 40px;
-    }
-    .intro__desc {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 155%;
-        text-align: center;
-        letter-spacing: 0.01em;
+        margin: 0 auto;
     }
 }
 @media only screen and (min-width: 807px) {
@@ -100,18 +116,33 @@
         width: 563px;
         height: 391px;
     }
-    .intro__links {
+    .links {
         flex-direction: row-reverse;
-        margin-bottom: 117px;
     }
-    .intro__link:first-child {
-        margin-left: 33px;
-        margin-bottom: 0;
+    .links>a {
+        padding: 17.5px 50px;
+    }
+    .links>a:nth-child(2) {
+        margin-right: 33px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .switch {
+        margin-right: 30px;
+    }
+    .header-wrapper {
+        flex-direction: row-reverse ;
     }
 }
 @media only screen and (min-width: 1240px) {
     .header-picture {
         width: 784px;
         height: 514px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .header-picture {
+        width: 977px;
+        height: 578px;
     }
 }
