@@ -72,3 +72,18 @@
     line-height: 150%;
     color: #3D3A41;
 }
+
+@media only screen and (min-width: 1240px) {
+    .customers {
+        padding: 100px;
+    }
+    .customer-title {
+        font-size: 48px;
+    }
+    .customer__text-box {
+        margin-bottom: 80px;
+    }
+    .customer-item {
+        width: 406px;
+    }
+}

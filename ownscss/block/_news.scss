@@ -68,6 +68,9 @@
     line-height: 150%;
     color: #3D3A41;
 }
+.news-item>img {
+    width: 100%;
+}
 .news-item-title {
     font-weight: 600;
     font-size: 23.4146px;
@@ -75,7 +78,7 @@
     color: #211F25;
 }
 .new-item-desc-wrapper {
-    max-width: 262px;
+    max-width: 359px;
 }
 .news-item-desc {
     font-family: "Roboto";
@@ -117,13 +120,13 @@
     .news-title {
         margin-bottom: 16px;
     }
-    .news-img {
-        src: url("/images/image/news.png");
-    }
     .news-list {
         max-width: 100%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+    .news-item {
+        width: 406px;
     }
 }

@@ -4,7 +4,6 @@
     padding: 40px 0;
 }
 .pricing-text-wrapper {
-    max-width: 297px;
     margin: 0 auto;
 }
 .pricing-title {
@@ -25,6 +24,7 @@
 .pricing-list {
     @include mixins.listUnstyled;
     flex-direction: column;
+    align-items: center;
     margin: 0 auto;
 }
 .pricing-item {
@@ -89,4 +89,45 @@
 }
 .pricing-item:hover .pricing-item-link {
     @include mixins.hoverStyled;
+}
+
+
+@media only screen and (min-width: 580px) and (max-width: 1240px){
+    .pricing {
+        padding: 70px 0;
+    }
+    .pricing-text-wrapper {
+        margin-bottom: 50px;
+    }
+    .pricing-title {
+        margin-bottom: 16px;
+        font-size: 48px;
+    }
+    .pricing-item {
+        max-width: inherit;
+        width: 70%;
+    }
+    .limits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 1240px) {
+    .pricing {
+        padding: 100px 0;
+    }
+    .pricing-text-wrapper {
+        margin-bottom: 80px;
+    }
+    .pricing-title {
+        margin-bottom: 16px;
+        font-size: 48px;
+    }
+    .pricing-list {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: start;
+    }
 }
